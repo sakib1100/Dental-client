@@ -4,7 +4,7 @@ import Navbar from './Shared/Navbar';
 import Home from './Page/Home';
 import About from './Page/About';
 import Login from './Page/Login';
-import Appoinment from './Page/Appoinment';
+import Appoinment from './Appoinment/Appoinment';
 
 function App() {
   return (

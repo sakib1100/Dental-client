@@ -1,7 +1,7 @@
 import { format } from 'date-fns';
 import React, { useEffect, useState } from 'react';
 import 'react-day-picker/dist/style.css';
-import ServiceSlots from './ServiceSlots';
+import ServiceSlots from '../Page/ServiceSlots';
 
 const AvailableAppoinment = ({date}) => {
     const [data,setData] = useState([]);
