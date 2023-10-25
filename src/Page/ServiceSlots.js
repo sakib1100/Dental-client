@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ServiceSlots = ({slot}) => {
+const ServiceSlots = ({slot,setTreatMent}) => {
  const {name,slots} = slot;
     return (
         <div class="card lg:max-w-lg bg-base-200 shadow-md">
@@ -11,7 +11,8 @@ const ServiceSlots = ({slot}) => {
         } </p>
          <p>{slots.length} Space available</p>
           <div class="card-actions justify-center">
-            <button disabled={slots.length == 0} class="btn btn-neutral">Book Appoinment</button>
+
+          <label for="bookngModal" className='btn  btn-outline'  disabled={slots.length == 0} onClick={() => setTreatMent(slot)}>Book Appoinment</label>
           </div>
         </div>
       </div>
