@@ -22,7 +22,7 @@ const handleAddService = (event) => {
 
   }
 
-  fetch("http://localhost:5000/booking", {
+  fetch("https://dental-server-nu.vercel.app/booking", {
     method: 'POST',
     body: JSON.stringify(booking),
     headers: {

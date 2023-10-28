@@ -7,7 +7,7 @@ const [appoinment,setAppoinment] = useState([]);
 const [user] = useAuthState(auth);
   useEffect(() =>{
    if(user){
-    fetch(`http://localhost:5000/booking?patient=${user.email}`)
+    fetch(`https://dental-server-nu.vercel.app/getBooking?patient=${user.email}`)
     .then((response) => response.json())
     .then((json) => setAppoinment(json));
    }
