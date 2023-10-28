@@ -28,8 +28,8 @@ const [user] = useAuthState(auth);
     </thead>
     <tbody>
     {
-        appoinment?.map(a =>  <tr class="bg-base-200">
-        <th>*</th>
+        appoinment?.map((a,index) =>  <tr class="bg-base-200">
+        <th>{index + 1}</th>
         <td>{a.patentName}</td>
         <td>{a.date}</td>
         <td>{a.treatMent}</td>
