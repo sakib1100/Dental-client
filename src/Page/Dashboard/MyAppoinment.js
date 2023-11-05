@@ -16,8 +16,8 @@ const [user] = useAuthState(auth);
     return (
         <div className='lg:m-20 max-sm:m-5'>
          <h2>My Appoinment : {appoinment.length}</h2> 
-         <div class="overflow-x-auto">
-  <table class="table">
+         <div className="overflow-x-auto">
+  <table className="table">
     <thead>
       <tr>
         <th></th>
@@ -29,7 +29,7 @@ const [user] = useAuthState(auth);
     </thead>
     <tbody>
     {
-        appoinment?.map((a,index) =>  <tr class="bg-base-200">
+        appoinment?.map((a,index) =>  <tr className="bg-base-200">
         <th>{index + 1}</th>
         <td>{a.patentName}</td>
         <td>{a.date}</td>

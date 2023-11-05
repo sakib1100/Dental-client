@@ -38,19 +38,19 @@ const handleOnSubmit = (event) => {
 }
     return (
         <div className='flex h-screen justify-center items-center'>
-        <div class="card w-96 bg-base-100 shadow-xl">
-  <div class="card-body">
-    <h2 class="text-center font-bold text-3xl ">Login</h2>
+        <div className="card w-96 bg-base-100 shadow-xl">
+  <div className="card-body">
+    <h2 className="text-center font-bold text-3xl ">Login</h2>
     <form onSubmit={handleOnSubmit} className='grid grid-cols-1 gap-3 mt-4'>
-    <input name='email' type="email" placeholder="Email" class="input input-bordered w-full max-w-xs" required/>
-    <input name='password' type="password" placeholder="Password" class="input input-bordered w-full max-w-xs" required />
+    <input name='email' type="email" placeholder="Email" className="input input-bordered w-full max-w-xs" required/>
+    <input name='password' type="password" placeholder="Password" className="input input-bordered w-full max-w-xs" required />
     {signInError}
-    <button type='submit' class="btn mt-3 btn-neutral w-full max-w-xs">Login</button>
+    <button type='submit' className="btn mt-3 btn-neutral w-full max-w-xs">Login</button>
     </form>
     <p>New to Dental Clinic?  <Link to="/signin" className='text-accent'>Create account</Link></p>
 
-    <div class="divider">OR</div>
-    <button onClick={() => signInWithGoogle()} class="btn btn-outline">Continue with google</button>
+    <div className="divider">OR</div>
+    <button onClick={() => signInWithGoogle()} className="btn btn-outline">Continue with google</button>
 
 
   </div>

@@ -25,16 +25,16 @@ const Home = () => {
     
 
   
-    {/* <section id="contact" class="py-16">
-        <div class="container mx-auto text-center">
-            <h2 class="text-3xl font-bold">Contact Us</h2>
-            <p class="text-lg mt-4">We are here to answer your questions. Don't hesitate to get in touch!</p>
-            <a href="#appointment" class="btn btn-primary mt-6">Schedule an Appointment</a>
+    {/* <section id="contact" className="py-16">
+        <div className="container mx-auto text-center">
+            <h2 className="text-3xl font-bold">Contact Us</h2>
+            <p className="text-lg mt-4">We are here to answer your questions. Don't hesitate to get in touch!</p>
+            <a href="#appointment" className="btn btn-primary mt-6">Schedule an Appointment</a>
         </div>
     </section>
 
-    <footer class="bg-blue-500 text-white text-center py-4">
-        <div class="container mx-auto">
+    <footer className="bg-blue-500 text-white text-center py-4">
+        <div className="container mx-auto">
             <p>&copy; 2023 Your Dental Clinic</p>
         </div>
     </footer> */}

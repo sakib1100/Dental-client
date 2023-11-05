@@ -13,8 +13,8 @@ const Testimonial = () => {
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc consectetur orci tortor, eget laoreet nibh laoreet sed. Maecenas semper ex ut est sodales porta. Maecenas sit amet ullamcorper ex. Vestibulum 
       </p>
         <div className='flex gap-5 mt-6'>
-        <div class="avatar">
-  <div class="w-12 max-sm:w-25 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+        <div className="avatar">
+  <div className="w-12 max-sm:w-25 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
     <img src="https://i.ibb.co/2c3RbLj/sander-sammy-38-Un6-Oi5be-E-unsplash.jpg" />
   </div>
 </div>
@@ -29,8 +29,8 @@ const Testimonial = () => {
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc consectetur orci tortor, eget laoreet nibh laoreet sed. Maecenas semper ex ut est sodales porta. Maecenas sit amet ullamcorper ex. Vestibulum 
       </p>
         <div className='flex gap-5 mt-6'>
-        <div class="avatar">
-  <div class="w-12 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+        <div className="avatar">
+  <div className="w-12 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
     <img src="https://i.ibb.co/2c3RbLj/sander-sammy-38-Un6-Oi5be-E-unsplash.jpg" />
   </div>
 </div>
@@ -45,8 +45,8 @@ const Testimonial = () => {
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc consectetur orci tortor, eget laoreet nibh laoreet sed. Maecenas semper ex ut est sodales porta. Maecenas sit amet ullamcorper ex. Vestibulum 
       </p>
         <div className='flex gap-5 mt-6'>
-        <div class="avatar">
-  <div class="w-12 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+        <div className="avatar">
+  <div className="w-12 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
     <img src="https://i.ibb.co/2c3RbLj/sander-sammy-38-Un6-Oi5be-E-unsplash.jpg" />
   </div>
 </div>
