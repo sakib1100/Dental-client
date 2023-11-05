@@ -7,10 +7,11 @@ const [appoinment,setAppoinment] = useState([]);
 const [user] = useAuthState(auth);
   useEffect(() =>{
    if(user){
-    fetch(`https://dental-server-nu.vercel.app/getBooking?patient=${user.email}`)
+    fetch(` https://dental-server-ten.vercel.app/getBooking?patient=${user.email}`)
     .then((response) => response.json())
     .then((json) => setAppoinment(json));
    }
+
   },[user]);
     return (
         <div className='lg:m-20 max-sm:m-5'>
