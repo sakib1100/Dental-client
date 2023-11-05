@@ -11,7 +11,7 @@ const [user] = useAuthState(auth);
     .then((response) => response.json())
     .then((json) => setAppoinment(json));
    }
-  },[user])
+  },[user]);
     return (
         <div className='lg:m-20 max-sm:m-5'>
          <h2>My Appoinment : {appoinment.length}</h2> 
