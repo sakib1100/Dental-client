@@ -38,7 +38,7 @@ const handleOnSubmit = (event) => {
 }
     return (
         <div className='flex h-screen justify-center items-center'>
-        <div className="card w-96 bg-base-100 shadow-xl">
+        <div className="card w-96 bg-slate-100 max-sm:w-80 bg-base-100 shadow-2xl">
   <div className="card-body">
     <h2 className="text-center font-bold text-3xl ">Login</h2>
     <form onSubmit={handleOnSubmit} className='grid grid-cols-1 gap-3 mt-4'>
