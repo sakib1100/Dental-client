@@ -8,7 +8,7 @@ const AvailableAppoinment = ({date}) => {
     const [data,setData] = useState([]);
     const [treatMent,setTreatMent] = useState(null);
     useEffect(() => {
-        fetch(' https://dental-server-ten.vercel.app/serviceGet')
+        fetch(' https://dental-server-rander.onrender.com/serviceGet')
         .then(res => res.json())
         .then(slot => setData(slot))
     },[])

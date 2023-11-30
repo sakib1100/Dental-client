@@ -22,7 +22,7 @@ const handleAddService = (event) => {
 
   }
 
-  fetch(" https://dental-server-ten.vercel.app/booking", {
+  fetch(" https://dental-server-rander.onrender.com/booking", {
     method: 'POST',
     body: JSON.stringify(booking),
     headers: {

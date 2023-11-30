@@ -7,7 +7,7 @@ const [appoinment,setAppoinment] = useState([]);
 const [user] = useAuthState(auth);
   useEffect(() =>{
    if(user){
-    fetch(`https://dental-server-ten.vercel.app/getBooking?patient=${user.email}`)
+    fetch(`https://dental-server-rander.onrender.com/getBooking?patient=${user.email}`)
     .then((response) => response.json())
     .then((json) => setAppoinment(json));
    }
@@ -18,7 +18,7 @@ const [user] = useAuthState(auth);
   const handleDelete = id => {
     const proceed = window.confirm('Are you sure want to delete this Appoinment?');
     if(proceed){
-      const url  = `https://dental-server-ten.vercel.app/DeleteData/${id}`;
+      const url  = `https://dental-server-rander.onrender.com/DeleteData/${id}`;
       fetch(url,{
          method : 'DELETE'
       })
